@@ -69,7 +69,7 @@ int main(){
             printf("Please enter only 's', 'w' or 'g'. Rest inputs will terminate the game.\n");
         }
 
-
+        // Asking the user if he wants to play again.
         printf("Do you wish to play again(press'1' for YES and '0' for NO): ");
         scanf("%d", &pa);
         if(pa == 1){
